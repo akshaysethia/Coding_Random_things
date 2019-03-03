@@ -1,0 +1,7 @@
+ONCE:
+git remote add origin "repo-name"
+
+EVERYTIME:
+git add .
+git commit -m "commit message"
+git push -u origin master

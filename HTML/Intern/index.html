@@ -1,17 +1,32 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DocBox</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DocBox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 </head>
+
 <body>
   <div class="container-fluid">
     <div class="side-navbar">
@@ -25,16 +40,31 @@
       <a href="#"><i class="fas fa-calendar-week"></i> My Calender</a>
       <a href="#"><i class="fas fa-hospital"></i> Shop Management</a>
       <a href="#"><i class="fas fa-user-circle"></i> My Profile</a>
-      <hr size="30px">
+      <hr class="linewale">
+      <div>
+        <p style="text-align:center;"><b>Share us on</b></p>
+        <ul class="social">
+          <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
     </div>
-    <div class="top-navbar">
-      <a class="active" href="#MyProfile" style="float: right; font-size: 20px; padding-left: 10px; text-transform: capitalize; text-decoration: none;">dr.neha mittal</a>
-      <a href="#" style="float: right; border-radius: 50%; padding-top: 4px; padding-left: 30px;"><img src="cat.png" alt="cat"></a>
-      <a href="#" style="float: right; border-radius: 5px;"><button type="button" class="but">Click To Recharge</button></a>
-      <p style="float:right; padding-right: 6px; padding-top: 5px;">Credits Left 62</p>
-      <a href="#" style="float:right; padding-top: 6px; padding-right: 45px;"><img src="Noti.png" alt="bell"></a>
-      <a href="#" style="float:right; padding-top: 6px; padding-right: 60px;">Click For Training</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#"><button type="button" style="background-color: white; border-style: none; font-size: 18px;">Click For Training</button></a>
+          <a class="nav-item nav-link" href="#" style="padding-top: 15px;"><button type="button" class="imgbut"><img src="Noti.png" alt="Ghanta"></button></a>
+          <a class="nav-item nav-link" href="#" style="padding-top: 15px;">Credits Left 62</span></a>
+          <a class="nav-item nav-link" href="#"><button type="button" class="btn btn-success"style="padding-top: 5px;"><span style="font-size: 8px;">Click to</span><br><span style="font-size: 10px;">Recharge</span></button></a>
+          <a class="nav-item nav-link" href="#" style="text-transform: capitalize;"><img src="cat.png" alt="cat">dr.neha mittal</a>
+        </div>
+      </div>
+    </nav>
   </div>
 </body>
+
 </html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*font-family: 'IBM Plex Mono', monospace;*/
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 14px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.header {
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.header-photo img {
+    width: auto;
+    height: auto;
+}
+
+.about-iphone img {
+    height: auto;
+    padding-top: 25px;;
+}
+
+.header-overlay {
+    background-color: rgba(31,31,31,0.5);
+}
+
+.logo {
+    padding-bottom: 50px;
+}
+
+.header-text h1 {
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 45px;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.header-text p {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 6px;
+}
+
+.fas {
+    padding-left: 5px;
+}
